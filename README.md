@@ -10,6 +10,8 @@ their public APIs:
 It **normalizes the data into a consistent format**, **stores it**, and **returns a single aggregated alphabetically (by name) sorted list** of
 characters through a unified API.
 
+[![Go Test](https://github.com/andreikom/characters-pipeline/actions/workflows/test.yml/badge.svg)](https://github.com/andreikom/characters-pipeline/actions/workflows/test.yml)
+
 ## Normalized Character Schema
 
 Each character in the aggregated response includes the following fields:
