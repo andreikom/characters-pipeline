@@ -24,7 +24,7 @@ build() {
 
 test() {
   echo "Running tests..."
-  go test -v ./pkg/...
+  go mod tidy && go test -v ./pkg/...
 }
 
 clean() {
