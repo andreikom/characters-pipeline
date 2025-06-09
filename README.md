@@ -48,7 +48,7 @@ Available Commands
 Once the service binary is built - execute via: 
 
 ```bash
-./build/characters-pipeline-darwin-amd64
+./build/characters-pipeline
 ```
 
 The service will print a temporarily filestore path for the local storage of each persisted list, e.g.:
